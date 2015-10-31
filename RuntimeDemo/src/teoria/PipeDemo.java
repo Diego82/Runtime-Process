@@ -27,7 +27,7 @@ public class PipeDemo {
 		ProcessBuilder pBuilder2 = new ProcessBuilder(comandos2);
 		
 		//definimos la ruta de directorio del proceso 1
-		File file = new File("/home/matinal");
+		File file = new File("/home/diego");
 		pBuilder1.directory(file);
 
 		//Abrimos dos procesos BufferedReader para nuestro proceso
@@ -76,5 +76,4 @@ public class PipeDemo {
 			}
 		}
 	}
-
 }
